@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "postcss": "postcss styles.css --use autoprefixer -d dist/"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
+    "postcss-cli": "^10.0.0"
+  }
+}
