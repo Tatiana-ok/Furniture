@@ -557,6 +557,17 @@ hr{
     margin-bottom: 84px;
 }
 
+.categories-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
 .category-button{
     background-color: inherit;
     margin: 0;
@@ -872,10 +883,7 @@ footer .categories-list{
     margin-right: 87px;
 }
 
-.categories-item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.categories-item-footer{
     position: relative;
     margin-bottom: 15px;
     padding-left: 20px;
@@ -883,6 +891,16 @@ footer .categories-list{
     white-space: nowrap;
 }
 
+.categories-item-footer::before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 2px;
+    background-color: var(--accent-color);
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
 
 footer .phone-numbers{
     display: -webkit-box;
